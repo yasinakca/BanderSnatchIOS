@@ -13,6 +13,8 @@
 		16CC64CD253C55760033F301 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16CC64CB253C55760033F301 /* Main.storyboard */; };
 		16CC64CF253C55780033F301 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16CC64CE253C55780033F301 /* Assets.xcassets */; };
 		16CC64D2253C55780033F301 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16CC64D0253C55780033F301 /* LaunchScreen.storyboard */; };
+		16CC64DE253C581F0033F301 /* Story.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16CC64DD253C581F0033F301 /* Story.swift */; };
+		16CC64E1253C5D780033F301 /* StoryBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16CC64E0253C5D780033F301 /* StoryBrain.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		16CC64CE253C55780033F301 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		16CC64D1253C55780033F301 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		16CC64D3253C55780033F301 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16CC64DD253C581F0033F301 /* Story.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Story.swift; sourceTree = "<group>"; };
+		16CC64E0253C5D780033F301 /* StoryBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryBrain.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +62,39 @@
 			children = (
 				16CC64C5253C55760033F301 /* AppDelegate.swift */,
 				16CC64C7253C55760033F301 /* SceneDelegate.swift */,
-				16CC64C9253C55760033F301 /* ViewController.swift */,
-				16CC64CB253C55760033F301 /* Main.storyboard */,
+				16CC64DC253C580C0033F301 /* Model */,
+				16CC64DB253C58070033F301 /* View */,
+				16CC64DA253C57FC0033F301 /* Controller */,
 				16CC64CE253C55780033F301 /* Assets.xcassets */,
 				16CC64D0253C55780033F301 /* LaunchScreen.storyboard */,
 				16CC64D3253C55780033F301 /* Info.plist */,
 			);
 			path = BanderSnatchIOS;
+			sourceTree = "<group>";
+		};
+		16CC64DA253C57FC0033F301 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				16CC64C9253C55760033F301 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		16CC64DB253C58070033F301 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				16CC64CB253C55760033F301 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		16CC64DC253C580C0033F301 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				16CC64DD253C581F0033F301 /* Story.swift */,
+				16CC64E0253C5D780033F301 /* StoryBrain.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,9 +167,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16CC64E1253C5D780033F301 /* StoryBrain.swift in Sources */,
 				16CC64CA253C55760033F301 /* ViewController.swift in Sources */,
 				16CC64C6253C55760033F301 /* AppDelegate.swift in Sources */,
 				16CC64C8253C55760033F301 /* SceneDelegate.swift in Sources */,
+				16CC64DE253C581F0033F301 /* Story.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

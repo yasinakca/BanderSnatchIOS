@@ -20,20 +20,20 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="XI3-aB-GCp">
-                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <rect key="frame" x="0.0" y="44" width="414" height="808"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Story" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pa8-Jt-wEk">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="658"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Story" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pa8-Jt-wEk">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="648"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                         <color key="textColor" red="0.78154430649999995" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XTm-ga-Xch">
-                                        <rect key="frame" x="0.0" y="668" width="414" height="70"/>
+                                        <rect key="frame" x="0.0" y="658" width="414" height="70"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SrD-IB-1rt">
                                                 <rect key="frame" x="20" y="0.0" width="374" height="70"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                 <state key="normal" title="Choice 1" backgroundImage="choice1Background">
                                                     <color key="titleColor" red="0.78154430649999995" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 </state>
@@ -51,11 +51,11 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SCd-tX-bbs">
-                                        <rect key="frame" x="0.0" y="748" width="414" height="70"/>
+                                        <rect key="frame" x="0.0" y="738" width="414" height="70"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0iz-h9-Oho">
                                                 <rect key="frame" x="20" y="0.0" width="374" height="70"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                 <state key="normal" title="Choice 2" backgroundImage="choice2Background">
                                                     <color key="titleColor" red="0.78154430649999995" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 </state>
@@ -81,7 +81,7 @@
                             <constraint firstItem="T3W-2K-bjt" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="576-fC-cvV"/>
                             <constraint firstItem="XI3-aB-GCp" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="N9P-FA-Zr0"/>
                             <constraint firstAttribute="trailing" secondItem="T3W-2K-bjt" secondAttribute="trailing" id="Reo-IY-tdQ"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="XI3-aB-GCp" secondAttribute="bottom" id="SAs-kH-g5w"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="XI3-aB-GCp" secondAttribute="bottom" constant="10" id="SAs-kH-g5w"/>
                             <constraint firstItem="XI3-aB-GCp" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="UFo-Tq-lbi"/>
                             <constraint firstAttribute="bottom" secondItem="T3W-2K-bjt" secondAttribute="bottom" id="Yb1-XX-6T4"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="XI3-aB-GCp" secondAttribute="trailing" id="p3t-qL-DJP"/>
